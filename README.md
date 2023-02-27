@@ -29,7 +29,7 @@ source <(curl -s https://raw.githubusercontent.com/KriptoKurdu/Quasar-Network/ma
 
 Senkronizasyon kontrol
 ```
-quasarnoded status 2>&1 | jq .SyncInfo
+quasard status 2>&1 | jq .SyncInfo
 ```
 ### Blok kontrol
 
