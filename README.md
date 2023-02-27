@@ -41,9 +41,10 @@ quasard tx staking create-validator \
 --from=wallet \
 -y
   ```
+Delege etme    
+ ```   
+quasard tx staking delegate <TO_VALOPER_ADDRESS> 1000000uqsr --from wallet --chain-id qsr-questnet-04 --gas-adjustment 1.4 --gas auto --gas-prices 0uqsr -y    
     
-    
-    
-    
+   ``` 
 
 
