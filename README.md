@@ -13,6 +13,8 @@
 
 
 
+
+### Moniker adı belirle
 ```
 MONIKER="monikerAd"
 ```
