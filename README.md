@@ -1,6 +1,14 @@
 # Quasar-Network
 
 
+## Sistem Gereksinimleri
+
+**CPU:** 4 CPU
+
+**RAM:** 16 GB
+
+**SSD:** 200 GB
+
 ### Kurulum
 
 ```
