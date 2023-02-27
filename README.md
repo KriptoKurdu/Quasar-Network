@@ -11,8 +11,11 @@
 
 **OS:** Ubuntu 20.04
 
-MONIKER="monikerAd"
 
+
+```
+MONIKER="monikerAd"
+```
 
 ### Kurulum
 
