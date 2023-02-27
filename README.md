@@ -25,7 +25,7 @@ quasard keys add wallet
 ```
 ## Faucet
 
-[Discord] (https://discord.gg/quasarfi)
+[] (https://discord.gg/quasarfi)
 
 ### Validator olusturma
 ```
