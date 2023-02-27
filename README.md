@@ -32,6 +32,10 @@ Senkronizasyon kontrol
 ```
 quasarnoded status 2>&1 | jq .SyncInfo
 ```
+## Explorer
+```
+https://testnet.ping.pub/quasar
+```
 
 ### Cüzdan ekleme
 
@@ -39,8 +43,9 @@ quasarnoded status 2>&1 | jq .SyncInfo
 quasarnoded keys add wallet
 ```
 ## Faucet
+```
  https://discord.gg/quasarfi
-
+```
 ### Validator olusturma
 ```
 daemon=quasarnoded
