@@ -31,7 +31,8 @@ sudo systemctl restart quasarnoded && journalctl -u quasarnoded -f -o cat
 ```
 quasarnoded keys add wallet
 ```
-
+## Faucet
+ https://discord.gg/quasarfi
 
 ### Validator olusturma
 ```
