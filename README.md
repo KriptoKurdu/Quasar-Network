@@ -14,6 +14,8 @@ source <(curl -s https://raw.githubusercontent.com/KriptoKurdu/Quasar-Network/ma
 cd $HOME
 sudo apt install snapd -y
 snap install lz4
+```
+```
 sudo systemctl stop quasarnoded
 quasarnoded tendermint unsafe-reset-all --home $HOME/.quasarnode --keep-addr-book
 cp $HOME/.quasarnode/data/priv_validator_state.json $HOME/.quasarnode/priv_validator_state.json.backup
