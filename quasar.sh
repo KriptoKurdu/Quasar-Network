@@ -25,8 +25,9 @@ chmod +x quasard
 sudo mv quasard /usr/local/bin/
 
 quasard config keyring-backend test
-quasard config chain-id $CHAIN_ID
-quasard init "$NODE_MONIKER" --chain-id $CHAIN_ID
+quasard config chain-id qsr-questnet-04
+quasard init "$MONIKER" --chain-id qsr-questnet-04
+
 
 curl -s https://raw.githubusercontent.com/quasar-finance/questnet/main/v04/definitive-genesis.json > $HOME/.quasarnode/config/genesis.json
 curl -s https://snapshots2-testnet.nodejumper.io/quasar-testnet/addrbook.json > $HOME/.quasarnode/config/addrbook.json
