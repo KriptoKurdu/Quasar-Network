@@ -24,9 +24,9 @@ https://testnet.ping.pub/quasar
 quasard keys add wallet
 ```
 ## Faucet
-```
- https://discord.gg/quasarfi
-```
+
+[Discord] (https://discord.gg/quasarfi)
+
 ### Validator olusturma
 ```
 quasard tx staking create-validator \
