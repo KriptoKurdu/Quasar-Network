@@ -1,5 +1,7 @@
 # Quasar-Network
 
+source <(curl -s https://raw.githubusercontent.com/KriptoKurdu/Quasar-Network/main/quasar?token=GHSAT0AAAAAAB6LGPTXMRBSQZHIR6PM4XOQY74UF6Q)
+
 
 ```
 sudo apt-get update -y 
