@@ -26,6 +26,11 @@ mv $HOME/.quasarnode/priv_validator_state.json.backup $HOME/.quasarnode/data/pri
 sudo systemctl restart quasarnoded && journalctl -u quasarnoded -f -o cat
 ```
 
+Senkronizasyon kontrol
+```
+quasarnoded status 2>&1 | jq .SyncInfo
+```
+
 ### Cüzdan ekleme
 
 ```
