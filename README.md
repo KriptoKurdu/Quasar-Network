@@ -13,10 +13,10 @@ Senkronizasyon kontrol
 ```
 quasarnoded status 2>&1 | jq .SyncInfo
 ```
-## Explorer
-```
-https://testnet.ping.pub/quasar
-```
+## Blok kontrol
+
+[Explorer](https://testnet.ping.pub/quasar)
+
 
 ### Cüzdan ekleme
 
@@ -25,7 +25,7 @@ quasard keys add wallet
 ```
 ## Faucet
 
-[] (https://discord.gg/quasarfi)
+[Discord](https://discord.gg/quasarfi)
 
 ### Validator olusturma
 ```
