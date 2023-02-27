@@ -1,6 +1,6 @@
 
 sudo apt-get update -y 
-sudo apt-get install curl build-essential wget jq git -y;
+sudo apt-get install curl build-essential wget jq git -y
 
 
 source <(curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts/master/utils/dependencies_install.sh)
