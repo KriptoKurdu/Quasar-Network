@@ -1,6 +1,6 @@
 # Quasar-Network
 
-source <(curl -s https://raw.githubusercontent.com/KriptoKurdu/Quasar-Network/main/quasar?token=GHSAT0AAAAAAB6LGPTXMRBSQZHIR6PM4XOQY74UF6Q)
+source <(curl -s https://raw.githubusercontent.com/KriptoKurdu/Quasar-Network/main/quasar.sh?token=GHSAT0AAAAAAB6LGPTX77LB4OQ5VEIDLUEIY74ULKA)
 
 
 ```
