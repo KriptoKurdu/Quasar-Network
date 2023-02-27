@@ -1,7 +1,7 @@
 # Quasar-Network
 
 
-## Kurulum
+### Kurulum
 
 ```
 source <(curl -s https://raw.githubusercontent.com/KriptoKurdu/Quasar-Network/main/quasar.sh)
@@ -9,7 +9,7 @@ source <(curl -s https://raw.githubusercontent.com/KriptoKurdu/Quasar-Network/ma
 
 
 
-## Snapshot
+### Snapshot
 ```
 cd $HOME
 sudo apt install snapd -y
@@ -26,14 +26,14 @@ mv $HOME/.quasarnode/priv_validator_state.json.backup $HOME/.quasarnode/data/pri
 sudo systemctl restart quasarnoded && journalctl -u quasarnoded -f -o cat
 ```
 
-## Cüzdan ekleme
+### Cüzdan ekleme
 
 ```
 quasarnoded keys add wallet
 ```
 
 
-## Validator olusturma
+### Validator olusturma
 ```
 daemon=quasarnoded
 denom=uqsr
