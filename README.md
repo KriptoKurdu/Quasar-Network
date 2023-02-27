@@ -9,6 +9,8 @@
 
 **SSD:** 200 GB
 
+**OS:** Ubuntu 20.04
+
 ### Kurulum
 
 ```
