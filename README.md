@@ -1,7 +1,7 @@
 # Quasar-Network
 
 
-## Sistem Gereksinimleri
+### Sistem Gereksinimleri
 
 **CPU:** 4 CPU
 
@@ -21,7 +21,7 @@ Senkronizasyon kontrol
 ```
 quasarnoded status 2>&1 | jq .SyncInfo
 ```
-## Blok kontrol
+### Blok kontrol
 
 [Explorer](https://testnet.ping.pub/quasar)
 
@@ -31,7 +31,7 @@ quasarnoded status 2>&1 | jq .SyncInfo
 ```
 quasard keys add wallet
 ```
-## Faucet
+### Faucet
 
 [Discord](https://discord.gg/quasarfi)
 
@@ -49,7 +49,7 @@ quasard tx staking create-validator \
 --from=wallet \
 -y
   ```
-Delege etme    
+### Delege etme    
  ```   
 quasard tx staking delegate <TO_VALOPER_ADDRESS> 1000000uqsr --from wallet --chain-id qsr-questnet-04 --gas-adjustment 1.4 --gas auto --gas-prices 0uqsr -y    
     
