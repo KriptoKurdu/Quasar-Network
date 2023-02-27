@@ -4,7 +4,7 @@
 ### Kurulum
 
 ```
-source <(curl -s https://raw.githubusercontent.com/KriptoKurdu/Quasar-Network/main/Quasar2.sh?token=GHSAT0AAAAAAB6LGPTWOKXNXSMHW23VDQOOY74VNXQ)
+source <(curl -s https://raw.githubusercontent.com/KriptoKurdu/Quasar-Network/main/quasar.sh?token=GHSAT0AAAAAAB6LGPTXVBCBEKSIQYZ4QBO6Y74VQUQ)
 ```
 
 
