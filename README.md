@@ -40,7 +40,7 @@ https://testnet.ping.pub/quasar
 ### Cüzdan ekleme
 
 ```
-quasarnoded keys add wallet
+quasard keys add wallet
 ```
 ## Faucet
 ```
@@ -48,20 +48,17 @@ quasarnoded keys add wallet
 ```
 ### Validator olusturma
 ```
-daemon=quasarnoded
-denom=uqsr
-moniker=验证人名
-chainid=qsr-questnet-04
-$daemon tx staking create-validator \
-    --amount=1000000$denom \
-    --pubkey=$($daemon tendermint show-validator) \
-    --moniker=$moniker \
-    --chain-id=$chainid \
-    --commission-rate=0.05 \
-    --commission-max-rate=0.2 \
-    --commission-max-change-rate=0.1 \
-    --min-self-delegation=1000000 \
-    --from=cüzdanAdi
+quasard tx staking create-validator \
+--amount=1000000uqsr \
+--pubkey=$(quasard tendermint show-validator) \
+--moniker="$NODE_MONIKER" \
+--chain-id=qsr-questnet-04 \
+--commission-rate=0.1 \
+--commission-max-rate=0.2 \
+--commission-max-change-rate=0.05 \
+--min-self-delegation=1 \
+--from=wallet \
+-y
   ```
     
     
